@@ -108,11 +108,13 @@
 			partition@fd0000 {
 				label = "tplink";
 				reg = <0xfd0000 0x020000>;
+				read-only;
 			};
 
 			art: partition@ff0000 {
 				label = "art";
 				reg = <0xff0000 0x010000>;
+				read-only;
 			};
 		};
 	};
