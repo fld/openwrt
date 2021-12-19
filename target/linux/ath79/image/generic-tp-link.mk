@@ -89,7 +89,7 @@ TARGET_DEVICES += tplink_archer-c59-v2
 define Device/tplink_archer-c6-v2
   $(Device/tplink-safeloader-uimage)
   SOC := qca9563
-  IMAGE_SIZE := 7808k
+  IMAGE_SIZE := 16000k
   DEVICE_MODEL := Archer C6
   DEVICE_VARIANT := v2 (EU/RU/JP)
   TPLINK_BOARD_ID := ARCHER-C6-V2
